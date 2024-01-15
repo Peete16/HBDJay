@@ -1,0 +1,59 @@
+body {
+  background-image: url("https://assets-global.website-files.com/625442b4613eaa38d6514c11/62e42561cd86ea4fca0814e8_Command-API-Blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 100px;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px yellow;
+  }
+  50% {
+    text-shadow: 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange, 0 0 80px orange;
+  }
+  100% {
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px yellow;
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 40px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#cake {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+}
